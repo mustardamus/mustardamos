@@ -10,4 +10,8 @@ if status is-interactive
 end
 
 source "$HOME/.asdf/asdf.fish"
+source "$HOME/.asdf/plugins/golang/set-env.fish"
+source "$HOME/.cargo/env.fish"
+
 fish_add_path "$HOME/.local/bin"
+fish_add_path "$HOME/.cargo/bin"
