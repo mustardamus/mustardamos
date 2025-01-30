@@ -1,4 +1,4 @@
-## Setup passwordless `sudo`
+# Setup passwordless `sudo`
 
 Here will be dragons. Make sure to use a encrypted hard drive, so
 authentication happens before the OS comes up.

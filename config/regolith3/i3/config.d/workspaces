@@ -1,0 +1,4 @@
+# find class with `xprop | grep CLASS`
+
+assign [class="Transmission-gtk"] 8
+assign [class="KeePassXC"] 9

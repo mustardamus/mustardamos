@@ -1,0 +1,9 @@
+font-family = Inconsolata Nerd Font
+font-size = 12
+window-decoration = false
+window-padding-color = extend-always
+confirm-close-surface = false
+gtk-single-instance = true
+
+# https://raw.githubusercontent.com/hroi/ghostty-themes/refs/heads/main/themes/tokyo_night_night
+theme = tokyo_night_night

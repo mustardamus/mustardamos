@@ -1,0 +1,47 @@
+! https://regolith-desktop.com/docs/reference/xresources/
+! find current values with command `xrdb -query`
+
+wm.bar.font: Noto Regular 6
+wm.bar.background.color: #000000
+wm.bar.workspace.active.text.color: #ffffff
+wm.bar.workspace.active.border.color: #1a1b26
+wm.bar.workspace.active.background.color: #1a1b26
+wm.bar.workspace.focused.text.color: #ffffff
+wm.bar.workspace.focused.border.color: #1a1b26
+wm.bar.workspace.focused.background.color: #1a1b26
+wm.bar.workspace.inactive.background.color: #000000
+wm.bar.workspace.inactive.border.color: #000000
+wm.bar.workspace.urgent.background.color: #000000
+wm.bar.workspace.urgent.border.color: #000000
+wm.bar.workspace.urgent.text.color: #ffffff
+wm.bar.status_command: i3status
+
+wm.workspace.01.name: 1
+wm.workspace.02.name: 2
+wm.workspace.03.name: 3
+wm.workspace.04.name: 4
+wm.workspace.05.name: 5
+wm.workspace.06.name: 6
+wm.workspace.07.name: 7
+wm.workspace.08.name: 8
+wm.workspace.09.name: 9
+wm.workspace.10.name: 10
+
+wm.gaps.outer.size: 0
+wm.gaps.inner.size: 0
+wm.gaps.focus_follows_mouse: true
+
+wm.window.border.size: 1
+wm.floatingwindow.border.size: 1
+wm.program.files: thunar
+
+gtk.icon_theme_name: Papirus
+gtk.font_name: Noto Regular
+gtk.document_font_name: Noto Regular
+gtk.monospace_font_name: Inconsolata Regular
+
+gnome.terminal.font: Inconsolata Regular 11
+gnome.terminal.color0: #000000
+
+regolith.wallpaper.file:
+regolith.wallpaper.color.primary: black

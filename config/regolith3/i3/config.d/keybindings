@@ -1,0 +1,8 @@
+## Launch // Thunar - File Manager // Super+Alt+Enter ##
+bindsym $mod+$alt+Return exec --no-startup-id thunar
+
+## Launch // Flameshot - Screenshot Tool // Super+Alt+Enter ##
+bindsym $mod+Print exec --no-startup-id flameshot
+
+## Apps // Liferea - RSS Reader // Super+Alt+1 ##
+bindsym $mod+$alt+1 exec --no-startup-id liferea

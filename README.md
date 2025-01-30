@@ -38,3 +38,9 @@ Successfully tested with these specs:
 - 64MB Video Memory
 - Enabled 3D Acceleration (needed for Regolith Desktop's default composer)
 - 40GB Storage
+
+```
+sudo apt update
+sudo apt install jq -y
+export VERSION="$(curl -s https://api.github.com/repos/mkasberg/ghostty-ubuntu/releases/latest | jq -r '.tag_name | sub("v"; "")')"
+```
