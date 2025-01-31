@@ -7,22 +7,6 @@ sudo apt update
 sudo apt install htop -y
 ```
 
-## Alternative `ls`
-
-```shell:terminal
-asdf plugin add eza
-asdf install eza latest
-asdf global eza latest
-```
-
-## Alternative `cat`
-
-```shell:terminal
-asdf plugin add bat
-asdf install bat latest
-asdf global bat latest
-```
-
 ## `lazydocker`
 
 ```shell:terminal
@@ -37,4 +21,12 @@ asdf global lazydocker latest
 asdf plugin add lazygit
 asdf install lazygit latest
 asdf global lazygit latest
+```
+
+## Zellij
+
+```shell:terminal
+asdf plugin add zellij
+asdf install zellij latest
+asdf global zellij latest
 ```
