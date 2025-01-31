@@ -1,5 +1,7 @@
 # Ghostty
 
+Just for playing around, still use `./16-kitty.md` as default shell.
+
 ## Environment
 
 Note that the first version in the URL is `xxx-0-ppa`, and the
@@ -21,10 +23,4 @@ sudo dpkg -i /tmp/ghostty.deb
 
 ```shell:terminal
 cp -r "$NOTEBOOKS/config/ghostty" "$HOME/.config/"
-```
-
-## Set as default terminal
-
-```shell:terminal
-sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator "/usr/bin/ghostty" 50
 ```

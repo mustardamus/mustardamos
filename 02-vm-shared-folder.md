@@ -6,7 +6,7 @@ Additions in order to make it fully work, shared folders for example.
 Start machine, click Devices->Insert Guest Additions CD Image...
 
 To add a shared folder, navigate to VM Settings->Shared Folders->Folder Icon +
-Select source and destination, make it auto mount.
+Select source and destination, make it auto mount and permanent.
 
 ```shell:terminal
 sudo mkdir -p /mnt/cdrom
