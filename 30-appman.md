@@ -1,6 +1,7 @@
 # AppMan
 
 https://github.com/ivan-hc/AM
+https://portable-linux-apps.github.io/apps.html
 
 ## Installation
 
