@@ -1,6 +1,13 @@
 # CLI Apps
 
-## Install alternative `ls`
+## Htop
+
+```shell:terminal
+sudo apt update
+sudo apt install htop -y
+```
+
+## Alternative `ls`
 
 ```shell:terminal
 asdf plugin add eza
@@ -8,7 +15,7 @@ asdf install eza latest
 asdf global eza latest
 ```
 
-## Install alternative `cat`
+## Alternative `cat`
 
 ```shell:terminal
 asdf plugin add bat
