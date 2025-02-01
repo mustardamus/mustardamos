@@ -19,3 +19,13 @@ librewolf https://addons.mozilla.org/en-US/firefox/addon/ddg-lite-search-provide
 librewolf https://addons.mozilla.org/en-US/firefox/addon/disconnect/
 librewolf https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 ```
+
+### Use LibreWolf to connect to KeepassXC (via browser extension)
+
+In KeepassXC:
+
+- Tools > Settings > Browser Integration > Advanced
+  - Use a custom browser configuration location:
+    - Browser type: Firefox
+    - `~/.librewolf/native-messaging-hosts`
+- Connect via browser extension, accept and name connection in KeepassXC
