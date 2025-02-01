@@ -1,5 +1,7 @@
 # Kitty
 
+https://sw.kovidgoyal.net/kitty/
+
 ## Installation
 
 ```shell:terminal

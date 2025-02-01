@@ -1,5 +1,7 @@
 # i3status
 
+https://i3wm.org/docs/i3status.html
+
 ## Installation
 
 ```shell:terminal

@@ -1,5 +1,7 @@
 # Thunar
 
+https://docs.xfce.org/xfce/thunar/start
+
 ## Installation
 
 ```shell:terminal

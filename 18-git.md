@@ -1,5 +1,7 @@
 # Git
 
+https://git-scm.com/doc
+
 ## Global Configuration
 
 ```shell:terminal
@@ -9,4 +11,3 @@
   git config --global user.email "$GIT_EMAIL"
   git config --global init.defaultBranch main
 ```
-

@@ -2,11 +2,15 @@
 
 ## KeepassXC
 
+https://keepassxc.org/docs/
+
 ```shell:terminal
 appman -i keepassxc
 ```
 
 ## Gnome Disk Utility
+
+https://apps.gnome.org/DiskUtility/
 
 ```shell:terminal
 sudo apt update

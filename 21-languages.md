@@ -2,6 +2,8 @@
 
 ## Node.js
 
+https://nodejs.org/api/documentation.html
+
 ```shell:terminal
 asdf plugin add nodejs
 asdf install nodejs latest
@@ -9,6 +11,8 @@ asdf global nodejs latest
 ```
 
 ## Bun
+
+https://bun.sh/docs
 
 ```shell:terminal
 sudo apt update
@@ -20,6 +24,8 @@ asdf global bun latest
 
 ## Deno
 
+https://docs.deno.com/
+
 ```shell:terminal
 asdf plugin add deno
 asdf install deno latest
@@ -29,6 +35,7 @@ deno completions fish > ~/.config/fish/completions/deno.fish
 
 ## Go
 
+https://go.dev/doc/
 https://github.com/asdf-community/asdf-golang
 
 ```shell:terminal
@@ -47,6 +54,8 @@ eval "$GO_INIT"
 
 ## Rust
 
+https://www.rust-lang.org/learn
+
 ```shell:terminal
 curl --proto '=https' --tlsv1.2 -sSf -o /tmp/rustup.sh https://sh.rustup.rs
 sh /tmp/rustup.sh -y
@@ -54,6 +63,8 @@ source "$HOME/.bashrc"
 ```
 
 ## Amber
+
+https://docs.amber-lang.com/
 
 ```shell:terminal
 bash -- <(curl -s "https://raw.githubusercontent.com/amber-lang/amber/master/setup/install.sh") --user

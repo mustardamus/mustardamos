@@ -1,5 +1,7 @@
 # LightDM
 
+https://github.com/canonical/lightdm
+
 ## Installation
 
 ```shell:terminal

@@ -1,6 +1,7 @@
 # Regolith Desktop
 
 https://regolith-desktop.com/
+https://i3wm.org/docs/
 
 ## Set version to install
 

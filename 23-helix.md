@@ -1,5 +1,7 @@
 # Helix
 
+https://docs.helix-editor.com/
+
 ## Installation
 
 ```shell:terminal

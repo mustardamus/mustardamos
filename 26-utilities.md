@@ -2,6 +2,8 @@
 
 ## Alternative `ls`
 
+https://eza.rocks/
+
 ```shell:terminal
 asdf plugin add eza
 asdf install eza latest
@@ -9,6 +11,8 @@ asdf global eza latest
 ```
 
 ## Alternative `cat`
+
+https://github.com/sharkdp/bat
 
 ```shell:terminal
 asdf plugin add bat
@@ -26,6 +30,8 @@ npm install -g tldr
 
 ## FD
 
+https://github.com/sharkdp/fd
+
 ```shell:terminal
 asdf plugin add fd
 asdf install fd latest
@@ -34,12 +40,16 @@ asdf global fd latest
 
 ## AG
 
+https://github.com/ggreer/the_silver_searcher
+
 ```shell:terminal
 sudo apt update
 sudo apt install silversearcher-ag -y
 ```
 
 ## RipGrep
+
+https://github.com/BurntSushi/ripgrep
 
 ```shell:terminal
 asdf plugin add ripgrep
@@ -49,6 +59,8 @@ asdf global ripgrep latest
 
 ## FZF
 
+https://junegunn.github.io/fzf/
+
 ```shell:terminal
 asdf plugin add fzf
 asdf install fzf latest
@@ -57,6 +69,8 @@ asdf global fzf latest
 
 ## ImageMagick
 
+https://imagemagick.org/
+
 ```shell:terminal
 sudo apt update
 sudo apt install imagemagick -y
@@ -64,12 +78,16 @@ sudo apt install imagemagick -y
 
 ## FFMPEG
 
+https://ffmpeg.org/
+
 ```shell:terminal
 sudo apt update
 sudo apt install ffmpeg -y
 ```
 
 ## Restic
+
+https://restic.readthedocs.io/en/stable/
 
 ```shell:terminal
 asdf plugin add restic

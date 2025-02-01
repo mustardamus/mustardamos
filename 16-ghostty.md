@@ -1,5 +1,7 @@
 # Ghostty
 
+https://ghostty.org/docs
+
 Just for playing around, still use `./16-kitty.md` as default shell.
 
 ## Environment

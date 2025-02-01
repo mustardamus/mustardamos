@@ -1,6 +1,7 @@
 # ASDF
 
 https://asdf-vm.com
+https://github.com/asdf-vm/asdf-plugins
 
 ## Installation
 
