@@ -52,3 +52,9 @@ curl --proto '=https' --tlsv1.2 -sSf -o /tmp/rustup.sh https://sh.rustup.rs
 sh /tmp/rustup.sh -y
 source "$HOME/.bashrc"
 ```
+
+## Amber
+
+```shell:terminal
+bash -- <(curl -s "https://raw.githubusercontent.com/amber-lang/amber/master/setup/install.sh") --user
+```

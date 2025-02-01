@@ -40,3 +40,10 @@ sudo apt install libreoffice-writer -y
 ```shell:terminal
 appman -i flameshot
 ```
+
+## Shotwell
+
+```shell:terminal
+sudo apt update
+sudo apt install shotwell -y
+```
