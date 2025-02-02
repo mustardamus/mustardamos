@@ -1,6 +1,8 @@
 # Language Servers
 
-### TOML
+Run `hx --health [lang]`, to see what to install.
+
+## TOML
 
 https://taplo.tamasfe.dev/
 
@@ -8,7 +10,7 @@ https://taplo.tamasfe.dev/
 cargo install taplo-cli --locked --features lsp
 ```
 
-### YAML
+## YAML
 
 https://github.com/redhat-developer/yaml-language-server
 
@@ -16,7 +18,7 @@ https://github.com/redhat-developer/yaml-language-server
 npm install -g yaml-language-server@next
 ```
 
-### JSON/CSS/SCSS/HTML
+## JSON/CSS/SCSS/HTML
 
 https://www.npmjs.com/package/vscode-langservers-extracted
 
@@ -24,7 +26,7 @@ https://www.npmjs.com/package/vscode-langservers-extracted
 npm install -g vscode-langservers-extracted
 ```
 
-### JavaScript/TypeScript
+## JavaScript/TypeScript
 
 https://www.typescriptlang.org/docs/handbook/intro.html
 https://github.com/typescript-language-server/typescript-language-server
@@ -34,7 +36,7 @@ https://prettier.io/docs/index.html
 npm install -g typescript typescript-language-server prettier
 ```
 
-### Astro
+## Astro
 
 https://www.npmjs.com/package/@astrojs/language-server
 https://github.com/withastro/prettier-plugin-astro
@@ -43,7 +45,7 @@ https://github.com/withastro/prettier-plugin-astro
 npm install -g @astrojs/language-server prettier-plugin-astro
 ```
 
-### Bash
+## Bash
 
 https://github.com/bash-lsp/bash-language-server
 https://github.com/mvdan/sh/
@@ -55,7 +57,7 @@ asdf install shfmt latest
 asdf global shfmt latest
 ```
 
-### Markdown
+## Markdown
 
 https://oxide.md/
 
@@ -63,7 +65,7 @@ https://oxide.md/
 cargo install --locked --git https://github.com/Feel-ix-343/markdown-oxide.git markdown-oxide
 ```
 
-### Go
+## Go
 
 https://pkg.go.dev/golang.org/x/tools/gopls
 
@@ -76,7 +78,7 @@ go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 asdf reshim golang
 ```
 
-### Vue
+## Vue
 
 https://github.com/vuejs/language-tools
 
@@ -84,7 +86,7 @@ https://github.com/vuejs/language-tools
 npm install -g @vue/language-server
 ```
 
-### Svelte
+## Svelte
 
 https://github.com/sveltejs/language-tools
 https://www.npmjs.com/package/typescript-svelte-plugin
@@ -93,7 +95,7 @@ https://www.npmjs.com/package/typescript-svelte-plugin
 npm install -g svelte-language-server typescript-svelte-plugin
 ```
 
-### TailwindCSS
+## TailwindCSS
 
 https://www.npmjs.com/package/@tailwindcss/language-server
 
@@ -101,10 +103,20 @@ https://www.npmjs.com/package/@tailwindcss/language-server
 npm install -g @tailwindcss/language-server
 ```
 
-### Docker
+## Docker
 
 https://github.com/rcjsuen/dockerfile-language-server
 
 ```shell:terminal
 npm install -g dockerfile-language-server-nodejs @microsoft/compose-language-service
+```
+
+## Zig
+
+https://zigtools.org/zls/
+
+```shell:terminal
+asdf plugin add zls https://github.com/dochang/asdf-zls.git
+asdf install zls latest
+asdf global zls latest
 ```

@@ -69,3 +69,13 @@ https://docs.amber-lang.com/
 ```shell:terminal
 bash -- <(curl -s "https://raw.githubusercontent.com/amber-lang/amber/master/setup/install.sh") --user
 ```
+
+## Zig
+
+https://ziglang.org/documentation/0.13.0/
+
+```shell:terminal
+asdf plugin add zig
+asdf install zig latest
+asdf global zig latest
+```
