@@ -16,3 +16,12 @@ https://apps.gnome.org/DiskUtility/
 sudo apt update
 sudo apt install gnome-disk-utility -y
 ```
+
+## Timeshift
+
+https://github.com/linuxmint/timeshift
+
+```shell:terminal
+sudo apt update
+sudo apt install timeshift -y
+```

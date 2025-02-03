@@ -16,5 +16,5 @@ bash /tmp/AM-INSTALLER
 
 ```shell:terminal
 mkdir -p "$HOME/.config/appman"
-echo "$HOME/Applications">"$HOME/.config/appman/appman-config"
+echo "$HOME/.appman">"$HOME/.config/appman/appman-config"
 ```
