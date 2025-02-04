@@ -5,7 +5,7 @@ https://portable-linux-apps.github.io/apps.html
 
 ## Installation
 
-Choose `1` when asked, for local installation.
+Choose `2` when asked, for local installation.
 
 ```shell:terminal
 curl -o /tmp/AM-INSTALLER https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
