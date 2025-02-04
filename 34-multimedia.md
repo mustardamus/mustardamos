@@ -49,8 +49,11 @@ sudo apt install libreoffice-writer -y
 
 https://flameshot.org/docs/
 
+Create system wide symlink to local binary, as it is started by Regolith.
+
 ```shell:terminal
 appman -i flameshot
+sudo ln -s "$HOME/.local/bin/flameshot" /usr/local/bin/flameshot
 ```
 
 ## Shotwell

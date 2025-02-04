@@ -4,8 +4,11 @@
 
 https://librewolf.net/
 
+Create system wide symlink to local binary, as it is started by Regolith.
+
 ```shell:terminal
 appman -i librewolf
+sudo ln -s "$HOME/.local/bin/librewolf" /usr/local/bin/librewolf
 ```
 
 ## Ungoogled Chromium

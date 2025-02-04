@@ -4,8 +4,11 @@
 
 https://keepassxc.org/docs/
 
+Create system wide symlink to local binary, as it is started by Regolith.
+
 ```shell:terminal
 appman -i keepassxc
+sudo ln -s "$HOME/.local/bin/keepassxc" /usr/local/bin/keepassxc
 ```
 
 ## Gnome Disk Utility
