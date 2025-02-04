@@ -8,12 +8,6 @@ https://librewolf.net/
 appman -i librewolf
 ```
 
-### Enable compact mode
-
-- go to `about:config`
-- search for `browser.uidensity`
-- set to `1`
-
 ## Ungoogled Chromium
 
 https://github.com/ungoogled-software/ungoogled-chromium
