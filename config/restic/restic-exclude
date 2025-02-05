@@ -1,0 +1,9 @@
+Downloads
+node_modules
+.cache
+Trash
+.appman
+.asdf
+.rustup
+.cargo
+.npm

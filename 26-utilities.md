@@ -84,13 +84,3 @@ https://ffmpeg.org/
 sudo apt update
 sudo apt install ffmpeg -y
 ```
-
-## Restic
-
-https://restic.readthedocs.io/en/stable/
-
-```shell:terminal
-asdf plugin add restic
-asdf install restic latest
-asdf global restic latest
-```
