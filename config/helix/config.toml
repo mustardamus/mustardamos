@@ -16,6 +16,9 @@ render = true
 character = "▏"
 skip-levels = 1
 
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
 
 # https://docs.helix-editor.com/keymap.html
 # https://github.com/LGUG2Z/helix-vim/blob/master/config.toml
