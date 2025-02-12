@@ -84,3 +84,11 @@ https://ffmpeg.org/
 sudo apt update
 sudo apt install ffmpeg -y
 ```
+
+## HTTP Server
+
+https://github.com/http-party/http-server
+
+```shell:terminal
+npm install -g http-server
+```

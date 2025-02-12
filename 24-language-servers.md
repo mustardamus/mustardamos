@@ -2,6 +2,16 @@
 
 Run `hx --health [lang]`, to see what to install.
 
+## Simple-Completion-Language-Server
+
+https://github.com/estin/simple-completion-language-server
+
+```shell:terminal
+cargo install --git https://github.com/estin/simple-completion-language-server.git
+```
+
+https://github.com/estin/simple-completion-language-server
+
 ## TOML
 
 https://taplo.tamasfe.dev/
