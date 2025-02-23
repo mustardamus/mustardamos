@@ -130,3 +130,11 @@ asdf plugin add zls https://github.com/dochang/asdf-zls.git
 asdf install zls latest
 asdf global zls latest
 ```
+
+## Svelte
+
+https://github.com/sveltejs/language-tools
+
+```shell:terminal
+npm i -g svelte-language-server prettier-plugin-svelte
+```

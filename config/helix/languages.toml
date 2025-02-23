@@ -74,16 +74,12 @@ name = "go"
 auto-format = true
 formatter = { command = "goimports" }
 
+# Note: VueLS shits the bed after two or three saves
 [[language]]
 name = "vue"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "vue"] }
-language-servers = [
-  "vuels",
-  "typescript-language-server",
-  "tailwindcss-ls",
-  "scls",
-]
+language-servers = ["typescript-language-server", "tailwindcss-ls", "scls"]
 
 [[language-server.typescript-language-server.config.plugins]]
 name = "@vue/typescript-plugin"
@@ -107,3 +103,13 @@ args = ["lsp"]
 
 [language-server.deno-lsp.config.deno]
 enable = true
+
+[[language]]
+name = "svelte"
+auto-format = true
+formatter = { command = 'prettier', args = [
+  "--plugin",
+  "/opt/node_modules/prettier-plugin-svelte/plugin.js",
+  "--parser",
+  "svelte",
+] }
