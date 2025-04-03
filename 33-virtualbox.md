@@ -11,3 +11,10 @@ sudo apt-get update
 sudo apt-get install virtualbox-7.1 -y
 ```
 
+## Vagrant
+
+```shell:terminal
+curl -LO https://releases.hashicorp.com/vagrant/2.4.3/vagrant_2.4.3-1_amd64.deb
+sudo dpkg -i vagrant_2.4.3-1_amd64.deb
+rm vagrant_2.4.3-1_amd64.deb
+```
