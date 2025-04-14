@@ -22,6 +22,12 @@ name = "html"
 language-servers = ["vscode-html-language-server", "tailwindcss-ls", "scls"]
 
 [[language]]
+name = "vento"
+language-servers = ["vscode-html-language-server", "tailwindcss-ls", "scls"]
+formatter = { command = 'prettier', args = ["--parser", "html"] }
+auto-format = true
+
+[[language]]
 name = "css"
 language-servers = ["vscode-css-language-server", "tailwindcss-ls", "scls"]
 
@@ -90,23 +96,23 @@ name = "@vue/typescript-plugin"
 location = "/opt/node_modules/@vue/language-server/"
 languages = ["vue"]
 
-# [[language]]
-# name = "typescript"
-# language-id = "typescript"
-# scope = "source.ts"
-# injection-regex = "^(ts|typescript)$"
-# file-types = ["ts", "tsx"]
-# shebangs = ["deno"]
-# roots = ["deno.json", "deno.jsonc", "package.json"]
-# auto-format = true
-# language-servers = ["deno-lsp", "tailwindcss-ls", "scls"]
+[[language]]
+name = "typescript"
+language-id = "typescript"
+scope = "source.ts"
+injection-regex = "^(ts|typescript)$"
+file-types = ["ts", "tsx", "js", "jsx"]
+shebangs = ["deno"]
+roots = ["deno.json", "deno.jsonc", "package.json"]
+auto-format = true
+language-servers = ["deno-lsp", "tailwindcss-ls", "scls"]
 
-# [language-server.deno-lsp]
-# command = "deno"
-# args = ["lsp"]
+[language-server.deno-lsp]
+command = "deno"
+args = ["lsp"]
 
-# [language-server.deno-lsp.config.deno]
-# enable = true
+[language-server.deno-lsp.config.deno]
+enable = true
 
 [[language]]
 name = "svelte"
