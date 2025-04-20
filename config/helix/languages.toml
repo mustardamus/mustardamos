@@ -23,8 +23,10 @@ language-servers = ["vscode-html-language-server", "tailwindcss-ls", "scls"]
 
 [[language]]
 name = "vento"
+language-id = "html"
 language-servers = ["vscode-html-language-server", "tailwindcss-ls", "scls"]
 formatter = { command = 'prettier', args = ["--parser", "html"] }
+# formatter = { command = "dprint", args = ["fmt", "--stdin", "markup"] }
 auto-format = true
 
 [[language]]
